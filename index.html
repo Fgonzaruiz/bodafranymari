@@ -152,7 +152,7 @@
     /* Carousel mobile */
     .gallery-carousel { display:none; position:relative; overflow:hidden }
     .carousel-track { display:flex; transition:transform .4s cubic-bezier(.25,.1,.25,1); will-change:transform }
-    .carousel-track img { flex:0 0 100%; width:100%; height:auto; max-height:82vw; object-fit:cover; filter:saturate(.9) brightness(.93) }
+    .carousel-track img { flex:0 0 100%; width:100%; height:auto; object-fit:contain; filter:saturate(.9) brightness(.93) }
     .carousel-btn { position:absolute; top:50%; transform:translateY(-50%); background:rgba(250,246,239,.8); border:1px solid var(--border-g); color:var(--green); width:38px; height:38px; display:flex; align-items:center; justify-content:center; font-size:1.2rem; z-index:5; backdrop-filter:blur(8px); transition:.2s }
     .carousel-btn:hover { background:var(--green); color:var(--white) }
     .carousel-prev { left:.8rem } .carousel-next { right:.8rem }
